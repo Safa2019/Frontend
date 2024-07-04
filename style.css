@@ -333,11 +333,7 @@ body {
 /*---------------------------------- Screen for desktop ro browser > 1450 px ----------------------------*/
 @media (min-width: 1450px){
 
-    /*Parent = grid-container class*/ 
-    .grid-container{
 
-    margin-left: 15%;
-    }
     .header img{
         width: 100%;
     }
