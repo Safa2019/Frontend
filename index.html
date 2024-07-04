@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>Overview</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <!-- Direction from right to left or left to right by auto value for attribute dir -->
+  <body dir="auto">
+    <div class="containerSide">
+      <div class="sidebar">
+        <!--flexbox for logo and name -->
+        <div class="box">
+          <div class="box1"><img src="images/logo.PNG"/></div>
+          <div class="box2"><h2>Logoipsm</h2></div>
+        </div>
+
+        <!--flexbox for menu items and icons -->
+        <div class="box">
+          <div class="box1">
+            <img src="images/icons.PNG"/>
+          </div>
+          <div class"box2">
+            <ul>
+              <li><a href="#">Overview</a></li>
+              <li><a href="#">Chart</a></li>
+              <li><a href="#">Transactions</a></li>
+              <li><a href="#">Wallet</a></li>
+              <li><a href="#">News</a></li>
+              <li><a href="#">Mail Box</a></li>
+            </ul>
+          </div>         
+        </div>
+
+        <!--flexbox for the end of sidebar -->
+        <div class="box sideBottom">
+          <div class="box1">
+            <img src="images/iconsBottom.PNG"/>
+          </div>
+          <div class"box2">
+            <ul>
+              <li><a href="#">Setting</a></li>
+              <li><a href="#">Logout</a></li>
+            </ul>
+          </div>         
+        </div>           
+      </div> <!-- End Side Bar-->
+    
+      <div class="containerContent"> 
+        <!-- Header Bar -->
+        <div class="header">
+          <div class="title"><h2>Dashboard</h2></div>
+          <!-- Search container-->
+          <div class="search-container">
+            <input type="text" id="search-input" placeholder="Search...">
+          </div>
+          <!--notification icon -->
+          <div><a href="#"> <img src="images/notify.PNG" width="70%"/></a></div>
+          <!--account dropdown menu-->
+          <div class="account">
+            <a href="#"> <img src="images/picAccount.PNG" /></a>
+            <div class="dropdown">
+              <button class="dropbtn">Account Name</button>
+              <div class="dropdown-content">
+                  <a href="#">Profile</a>
+                  <a href="#">Settings</a>
+                  <a href="#">Sign out</a>
+              </div>
+            </div>
+          </div>
+        </div><!--header end-->
+        <div class="grid-container one">
+          <!-- 4 cards in row -->
+          <div class="item3"> <img src="images/bitcoin.PNG"/></div>
+          <div class="item4"> <img src="images/litecoin.PNG"/></div>
+          <div class="item5"> <img src="images/Ethereum.PNG"/></div>
+          <div class="item6"> <img src="images/salona.PNG"/></div>
+        </div>
+        <div class="grid-container two">
+          <div class="item7"> <img src="images/creditCard.PNG"/></div>   
+          <div class="item9"> <img src="images/chart.PNG"/></div>  
+          <div class="item8"> <img src="images/protfolio.PNG"/></div>
+          <div class="item10"> <img src="images/liveMarker.PNG"/></div>
+        </div>
+      </div><!-- Container Content End--> 
+    </div><!-- Container Side End--> 
+  </body>
+</html>
